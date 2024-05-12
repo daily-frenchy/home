@@ -5,37 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    
+    <title>Daily-Frenchy</title>
+
+<!--     les link pour le style  ----------------------------------------------------------------------------------->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/search.css">
 </head>
 
 <body>
+    
     <header class="m-1">
+<!--         Navbar ------------------------------------------------------------------------------------------- -->
         <nav class="navigation max-width-1  margin-auto">
             <div class="navLeft">
                 <a href="/blog-in-html-css/index.html">
-
-                    Logo
+                    Logo du site a mettre (inclus le bouton retour)
                 </a>
             </div>
             <div class="navCenter">
                 <ul class="nav-items">
                     <li class="nav-item"><a href="/blog-in-html-css/index.html">Home</a></li>
-
                     <li class="nav-item"><a href="/blog-in-html-css/contact.html">Contact</a></li>
                 </ul>
             </div>
+            
+<!--            barre de recherche, a voir si ca passe avec github pages
             <form action="/blog-in-html-css/search.html">
                 <div class="navRight">
                     <input type="search" name="query" class="form-input " placeholder="Search Hear">
                     <button class="btn btn-pink" type="submit">Search </button>
                 </div>
-            </form>
+            </form> -->
+            
         </nav>
+<!--         Fin de la Navbar ------------------------------------------------------------------------------------------ -->
     </header>
+
+
+<!--     debut du MAIN --------------------------------------------------------------------------------------------------- -->
     <main>
+
+<!--         1er BLOC de travail ----------------------------------------------------------------------------------------- -->
         <div class="content max-width-95 margin-auto">
             <div class="content-left">
                 <h1 class="m-1">Typing</h1>
@@ -51,11 +63,19 @@
                 <img src="img/home.svg" alt="000">
             </div>
         </div>
+<!--         Fin 1er Bloc ------------------------------------------------------------------------------------------------ -->
+
+<!--  marge pour creer des blocs prpre, ameliore la transition ----------------------------------------------------        -->
         <div class="max-width-1 margin-auto ">
             <hr>
         </div>
+<!--         Fin marge ----------------------------------------------------------------------------------------------------- -->
+
+<!--    debut bloc articles -------------------------------------------------------------------------------------------       -->
         <div class="home-div-articles p-3">
-            <div class="m-2">
+
+<!--             bloc année de parution, a voir si fonctionnel avec github pages -------------------------------------------- -->
+<!--             <div class="m-2">
 
                 <h2>Featured Articles</h2>
                 <div class="yearBox">
@@ -74,7 +94,9 @@
                         <input type="radio" name="Year" id="2021">
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            
             <div class="home-articles ">
     
                 <div class="home-article center">
@@ -155,6 +177,8 @@
 
             </div>
         </div>
+
+<!--         fin bloc article ---------------------------------------------------------------------------------------------------------------------- -->
     </main>
     <footer class="center">
         &copy; Rajat Rawal
